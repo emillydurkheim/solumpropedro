@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+solum-venv/
+
+# Variaveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node / React / Expo
+node_modules/
+dist/
+build/
+.expo/
+.expo-shared/
+web-build/
+
+# Arquivos locais
+*.log
+.DS_Store
+Thumbs.db
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
